@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bài Tập 14</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+		body{
+
+		}
+		.container{
+			width: 700px;
+			height: 650px;
+			border: 1px solid black;
+			margin: 0px auto;
+			background-color: #ECE7E7;	
+		}
+		.imgmap{
+			padding-left: 10px;
+			width: 150px;
+			height: 120px;
+	/*		border: 1px solid black;*/
+			float: left;
+		}
+		.fo{
+			float: left;
+			width: 600px;
+		}
+		.check:hover{
+			background-color: #1249FC;
+		}
+		.footer{
+			margin-top: 5px;
+			width: 700px;
+			border: 1px solid black;
+			float: left;
+			height: 25px;
+		}
+		.hinhanh1{
+			float: left;
+		}
+		.logoe{
+			float: left;
+			width: 25px;
+			height: 25px;
+
+		}
+		.hinhanh2{
+			float: right;
+		}
+		.logoright{
+			width: 25px;
+			height: 25px;		
+			float: right;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p>Your Age: <input type="text" name="" value="" placeholder=""></p>
+		<p>Your gender : <input type="radio" name="" value="" placeholder="">Male <input type="radio" name="" value="" placeholder="">Female</p>
+		<p>Check all names of  the people  listed whom you have heard about :</p>
+		<p><input type="checkbox" name="" value="" placeholder="">Marc Andreessenn <input type="checkbox" name="" value="" placeholder="">Lisa Schmeuiser <input type="checkbox" name="" value="" placeholder="">Al Gore <input type="checkbox" name="" value="" placeholder="">Boutros Boutros-Ghahi</p>
+		<p>What is your favorite Web brower? 
+			<select style="width:100px;">
+				<option>Netscape</option>
+				<option>Vanilla</option>
+				<option>Chocolate</option>
+				<option>Cheery Garcia</option>
+			</select>
+		</p>
+		<p>Which of these  ice cream  flavors have you tried?
+			  <select style="width: 100px;" size="3">
+			    <option>Vanilla</option>
+			    <option>Chocolate</option>
+			    <option>Cheery Garcia</option>
+			    <option>Audi</option>
+			  </select>
+		</p>
+		<p>Guess the secret password : <input type="text" name="" value="" placeholder=""></p>
+		<p>Do you have an informal nickname ? <input type="radio" name="" checked="" value="" placeholder="">No <input type="radio" name="" value="" placeholder="">Yes, it is : <input type="text" name="" value=""></p>
+		<p>Enter your personal motto : </p>
+		  <label for="cars">Choose a car:</label>
+			  <select style="width: 400px;"size="2">
+			    <option>All is well that ends well.</option>
+			    <option></option>
+			  </select>
+		<p>When you are  done with the above responses, please submit this information by clicking  on your current geographic location n this map :</p>
+		<div>
+			<img src="../images/mappp.jpg"  class="imgmap" style="width: 100%,height: 100%">
+		</div>	
+		<div class="fo">
+			<input type="button" class="check" onclick="alert()" style="width: 200px;" value="Send this survey">
+			<input type="button" class="check" onclick="alert()" style="width: 200px;" value="Cancel this survey"> 
+		</div> 
+		<div class="footer">
+			<div class="hinhanh1">
+				<img src="../images/internet.png" class="logoe" style="width: 400px,height: 100%">Done
+			</div>
+			<div class="hinhanh2">My Computer
+				<img src="../images/My-Computer.jpg" class="logoright" style="width: 290px,height: 100%">			
+			</div>
+		</div>
+	</div>
+</body>
+</html>
